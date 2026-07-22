@@ -1,9 +1,6 @@
 [build]
 builder = "nixpacks"
 
-[build.env]
-PYTHON_VERSION = "3.10.12"
-
 [phases.setup]
 nixPkgs = ["python310", "ffmpeg"]
 
@@ -13,5 +10,5 @@ cmds = [
   "pip install -r requirements.txt"
 ]
 
-[phases.deploy]
-cmds = ["python bot.py"]
+[start]
+cmd = "python bot.py"
