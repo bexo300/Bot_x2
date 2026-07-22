@@ -1,8 +1,8 @@
 __pycache__/
 *.pyc
+*.db
 *.mp3
 *.webm
 *.m4a
-users.db
 .env
-venv/
+.DS_Store
