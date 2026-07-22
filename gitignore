@@ -1,8 +1,0 @@
-__pycache__/
-*.pyc
-*.db
-*.mp3
-*.webm
-*.m4a
-.env
-.DS_Store
